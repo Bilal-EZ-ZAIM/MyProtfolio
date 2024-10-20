@@ -1,0 +1,59 @@
+.landing{
+    height: calc(100vh - 18vh);
+}
+.landing .contenre{
+    height: 100%;
+    line-height: 2;
+}
+.landing .contenre .tout .icon{
+    width: 200px;
+}
+.landing .contenre .tout .icon a{
+    background-color: aliceblue;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.landing .contenre .tout h3{
+    letter-spacing: 1px;
+    color: var(--secondaryColor);
+}
+.landing .contenre .tout h1{
+    font-size: 56px;
+    letter-spacing: 2px;
+}
+
+.landing .contenre .tout p{
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin-bottom: 30px;
+}
+@media (max-width:450px) {
+    .landing .contenre .tout h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .landing .contenre .tout p{
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1.3px;
+        margin-bottom: 30px;
+    }
+}
+.landing .contenre .tout .icon a i{
+    font-size: 26px;
+}
+.landing .contenre .tout .icon a:first-child{
+    
+    color: rgb(70, 70, 243);
+}
+.landing .contenre .tout .icon a:nth-child(2){
+    
+    color: rgb(124, 124, 247);
+}
+
+.landing .contenre .tout .icon a:hover{
+    transform: scale(1.1);
+}

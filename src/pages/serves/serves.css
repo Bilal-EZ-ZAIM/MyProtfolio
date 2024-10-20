@@ -1,0 +1,13 @@
+.serves{
+    min-height: calc(100vh - 18vh);
+}
+.serves .contenre p{
+    color: var(--secondaryColor);
+    margin-top: 20px;
+    line-height: 1.5;
+}
+@media (max-width:500px) {
+    .serves .contenre p{
+        font-size: 14px;
+    }
+}

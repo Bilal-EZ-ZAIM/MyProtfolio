@@ -1,0 +1,47 @@
+.contact{
+    height: calc(100vh - 18vh);
+}
+.contact .contenre .ivb{
+    line-height: 3;
+    
+}
+.contact .contenre .ivb a{
+    color: var(--lightColor);
+    font-size: 22px;
+    
+}
+.contact .contenre a i{
+    font-size: 24px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.contact .contenre a:first-child{
+    
+    color: rgb(70, 70, 243);
+}
+.contact .contenre a:nth-child(2){
+    color: rgb(124, 124, 247);
+}
+.contact .contenre .icon a i:hover{
+    transform: scale(1.1);
+}
+.contact .contenre a span{
+    color: var(--lightColor);
+    margin-left: 20px;
+    transition: 0.3s all;
+}
+.contact .contenre a span:hover{
+    color: #ff274b;
+}
+.contact .contenre h3 i{
+    margin-right: 20px;
+    color: rgb(17, 199, 17);
+    font-size: 22px;
+}
+.contact .contenre h3 .gm{
+    margin-right: 20px;
+    color: rgb(250, 149, 55);
+    font-size: 22px;
+}

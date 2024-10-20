@@ -1,0 +1,28 @@
+.componte-title{
+    height: 15vh;
+}
+.componte-title .contenre{
+    height: 100%;
+}
+.componte-title .contenre h1{
+    position: relative;
+    font-size: 42px;
+    font-weight: 500;
+}
+.componte-title .contenre h1::before{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #ff274b;
+    position: absolute;
+    bottom: -10px;
+}
+.componte-title .contenre h1::after{
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: #ff274b;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}

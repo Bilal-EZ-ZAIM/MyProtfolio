@@ -1,0 +1,10 @@
+.ragth{
+    position: fixed;
+    right: 10px;
+    top: 10vh;
+}
+.ragth i{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 26px;
+}

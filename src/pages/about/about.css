@@ -1,0 +1,22 @@
+.about{
+    min-height:82vh;
+}
+.about .contenre p{
+line-height: 1.5;
+font-size: 16px;
+color: var(--secondaryColor);
+margin-top: 10px;
+}
+@media (max-width:580px) {
+    .about .contenre p{
+        font-size: 12px;
+        }
+}
+.about .contenre .down{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #ff274b;
+    margin: 25px 0;
+    font-size: 18px;
+    color: #fff;
+}

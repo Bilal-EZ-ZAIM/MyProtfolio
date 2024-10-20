@@ -1,0 +1,29 @@
+.protfolio{
+    min-height: calc(100vh - 18vh);
+}
+.protfolio .contenre{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+.protfolio .contenre .content{
+    height: 40vh;
+    overflow: hidden;
+    line-height: 3;
+    box-shadow: 0 0 1px 1px var(--lightColor);
+}
+.protfolio .contenre .content img{
+    width: 100%;
+    height: 30vh;
+}
+.protfolio .contenre .content .title .see{
+    padding: 8px 18px;
+    color: #fff;
+    background-color: #ff274b;
+    border-radius: 10px;
+}
+@media (max-width:290px) {
+    .protfolio .contenre{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
